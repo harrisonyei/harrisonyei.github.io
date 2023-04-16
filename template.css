@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  background-color:#000000;
+  color:#333;
+  font: normal 14px "Open Sans", sans-serif;
+  margin:0;
+}
+
+h1,h2,h3,p,li {
+  text-align:left;	
+}
+
+a {
+  background-color:inherit;
+  color:#333;
+  text-decoration:none; 
+}
+
+a:hover {
+  text-decoration:underline; 
+}	
+
+#wrap {
+  width:98%;
+  height: 95%;
+  background-color:#fff;
+  color:inherit;
+  padding:0;
+  margin:30px auto 15px auto;
+  border-radius: 0%;
+}
+
+#header {
+  background: #333131;
+  background: -moz-linear-gradient(top,  #2c2c2c 0%, #474747 100%);
+  background: -webkit-linear-gradient(top,  #2c2c2c 0%,#474747 100%);
+  background: linear-gradient(to bottom,  #2c2c2c 0%,#474747 100%);
+  color:#fff;
+  height:200px;
+  border:10px solid #fff;
+  border-bottom:1px solid #fff;
+  border-radius: 15px;
+}
+
+#header h1 {	
+  text-align:center;
+  padding:0;
+  margin:80px auto 0 auto; 
+}
+
+#header a
+{	background-color:inherit;
+	color:#fff;
+	text-decoration:none; }
+	
+#header p
+{	text-align:center;
+	margin:0 auto; }
+
+nav {
+  text-align:center;
+  margin:40px auto;
+}
+	
+ul#menu {
+    list-style-type: none;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    overflow: hidden;
+    width:95%;
+    }
+
+ul#menu li  
+ { 	display: table-cell;
+    text-align:center;  }
+   
+ul#menu li a {
+    background-color:inherit;
+    color: #c8c8c8;
+    padding:10px;
+    text-decoration:none;
+    font-weight:lighter;
+    margin:0 1px;
+}
+
+ul#menu li a.current,ul#menu
+{	background-color:inherit;
+	color:#ffffff;	}
+
+ul#menu li a:hover
+{	background-color:#696969;
+	color:#ffffff;	}
+	
+/* Content */
+#content
+{	text-align:left;
+	width:90%;
+	padding:0 25px 10px 25px;
+	margin:0 auto;	}
+	
+#content h2
+{	
+	padding:0;
+	margin:0 auto; }	
+
+#content h3
+{	background-color:inherit;
+	color:rgb(0, 85, 255);
+	font:bold 12pt Arial,sans-serif;	
+	padding:0;	}
+
+#content p a
+{	background-color:inherit;
+	color:rgb(212, 0, 255);
+	text-decoration:underline;	} 	
+	
+#content p
+{	text-align:justify;
+	line-height:24px; }
+
+#content p.center { text-align: center; }
+	
+#content li
+{	line-height:24px;	}
+
+#content li a
+{	background-color:inherit;
+	color:rgb(81, 0, 255);
+	text-decoration:none;	}
+
+#content li a:hover
+{	text-decoration:underline; }
+
+#content ul {
+  list-style:none;
+  padding:0;
+}
+	
+#content ul li
+{	list-style-position:inside;
+    text-indent: 0px;
+	padding-left:20px;
+	margin:0; }	
+	
+#content ul li:before {
+  content: "\27a1 \00a0 \00a0";
+  background-color:inherit;
+  color:rgb(255, 0, 0);
+  font-size:16px;
+}
+
+#content .post
+{	padding:0 0 20px 0;
+	margin:auto;	}
+
+#content img.photo
+{
+   display: block;
+   height:480x;
+   width: 720px;
+   margin-left: auto;
+   margin-right: auto;}
+
+/* Footer */	
+#footer {
+  background: #333131;
+  background: -moz-linear-gradient(top,  #2c2c2c 0%, #474747 100%);
+  background: -webkit-linear-gradient(top,  #2c2c2c 0%,#474747 100%);
+  background: linear-gradient(to bottom,  #2c2c2c 0%,#474747 100%);
+ color:#fff;
+  height:40px;
+  text-align:left;
+  font-size:12px;
+  padding: 0 15px;
+  margin:0 auto;	
+  border:10px solid #fff;
+}
+
+#footer a
+{	background-color:inherit;
+	color:#fff;	
+	text-decoration:none;	}
+	
+#footer .links
+{	background-color:inherit;
+	color: #eee;
+	padding:0;
+  line-height:40px;
+}
+
+/* Attribution: Under Creative Commons, Attribution should not be removed or hidden */
+#attribution {	
+  background-color:inherit;
+  color:#ff9500;
+  text-align:center;
+  font-size:11px;
+  padding:5px 0;
+  margin:0 auto;	
+}
+
+#attribution a
+{	background-color:inherit;
+	color:#8e0707;
+	text-decoration:none;	}
+	
+#attribution a:hover
+{	color:#999;	}
+
+/* Responsive Styles */
+#show-menu {display: none;}
+.responsive { 
+  text-align:left; 
+  font-weight:bold; font-size:18px; font-style:underline; 
+  padding: 0; display:none; margin-left:20px;
+}
+
+
+/* Drop Box ========================================================================================*/
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
