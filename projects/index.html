@@ -2,8 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 <title>Projects|</title>
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
 <link rel="stylesheet" href="../template.css" type="text/css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -14,24 +18,22 @@
 	<!--Begin Header -->
 	<div id="header">
 		<h1><a href="#" title="Home">Projects</a></h1>
-		<p>__________</p>
 		<nav>
-
-		<label for="show-menu" class="responsive">&#9776; Menu</label>
-		<input type="checkbox" id="show-menu" role="button">
-				<ul id="menu">
-					<li><a href="../" id="Home" title="Home">Home</a></li>
-					<li><a href="../about" id="About" title="About">About</a></li>
-					<li class= "dropdown">
-						<a id="Portfolio" title="Portfolio"> Portfolio</a>
-							<div class="dropdown-content">
-								<a id="Portfolio/projects" href="../projects">Projects</a>
-								<a id="Portfolio/games" href="../games">Games</a>
-								<a id="Portfolio/others" href="../others">Others</a>
-							</div>
-					</li>
-					<li><a href="../contact" id="Contact" title="Contact">Contact</a></li>
-				</ul>
+			<!-- <label for="show-menu" class="responsive">&#9776; Menu</label> -->
+			<!-- <input type="checkbox" id="show-menu" role="button"> -->
+			<ul id="menu">
+				<li><a href="../" id="Home" title="Home">Home</a></li>
+				<li><a href="../about" id="About" title="About">About</a></li>
+				<!-- <li class= "dropdown"> -->
+					<!-- <a id="Portfolio" title="Portfolio"> Portfolio</a> -->
+						<!-- <div class="dropdown-content"> -->
+							<li><a id="Portfolio/projects" href="../projects">Projects</a></li>
+							<li><a id="Portfolio/games" href="../games">Games</a></li>
+							<li><a id="Portfolio/others" href="../others">Others</a></li>
+						<!-- </div> -->
+				<!-- </li> -->
+				<li><a href="../contact" id="Contact" title="Contact">Contact</a></li>
+			</ul>
 		</nav>
 	</div>
 	<!--End Header -->
@@ -45,6 +47,12 @@
 			</h2>
 			<h7>
 				<ul>
+					<li style="float: left;">
+						<a
+						href="https://mega.nz/file/F2lV3BbA#CJeuilw7lXEaQfNOAZB17PiM0A2wEJlsX8FdAVBqzdc">
+						download
+						</a>
+					</li>
 					<li style="float: left;">
 						<a
 						href="resources/fish/download_neural_swimmer.pdf">
@@ -62,8 +70,32 @@
 			</h7>
 			<br>
 			<br>
-			<img width="860" 
-			src="resources/fish/Sim1.png">
+			
+			<div class="w3-content w3-display-container" style="max-width:1200px">
+			<img class="mySlides1" src="resources/fish/Sim1.png" style="display: none;width:100%">
+			<img class="mySlides1" src="resources/fish/Sim3.png" style="display: none;width:100%">
+			<img class="mySlides1" src="resources/fish/Sim4.png" style="display: none;width:100%">
+			<img class="mySlides1" src="resources/fish/str2.png" style="display: none;width:100%">
+			<img class="mySlides1" src="resources/fish/ph2.png" style="display: none;width:100%">
+			<img class="mySlides1" src="resources/fish/turn1.png" style="display: none;width:100%">
+			<img class="mySlides1" src="resources/fish/turn2.png" style="display: none;width:100%">
+			<img class="mySlides1" src="resources/fish/SharkA.png" style="display: none;width:100%">
+			<img class="mySlides1" src="resources/fish/shark1.png" style="display: none;width:100%">
+				<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+					<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1, 0)">&#10094;</button>
+					<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1, 0)">&#10095;</button>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(1,0)"></span>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(2,0)"></span>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(3,0)"></span>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(4,0)"></span>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(5,0)"></span>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(6,0)"></span>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(7,0)"></span>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(8,0)"></span>
+					<span class="w3-badge demo1 w3-border w3-transparent w3-hover-white" onclick="currentDiv(9,0)"></span>
+				</div>
+			</div>
+
 			<br>
 			<p>
 				<ul>
@@ -121,8 +153,9 @@
 
 			<br>
 			<br>
-			<img width="860" 
-			src="resources/xaocx.PNG">
+			<div class="w3-content w3-display-container" style="max-width:1200px">
+				<img src="resources/xaocx.PNG" style="width:100%">
+			</div>
 			<p>
 				<ul>
 					<li>
@@ -162,8 +195,9 @@
 
 			<br>
 			<br>
-			<img height="200" 
-			src="resources/mahjong.PNG">
+			<div class="w3-content w3-display-container" style="max-width:1200px">
+				<img src="resources/mahjong.PNG" height="200">
+			</div>
 			<p>
 				<ul>
 					<li>
@@ -210,10 +244,12 @@
 
 			<br>
 			<br>
-			<img height="220" 
+			<div class="w3-content w3-display-container" style="max-width:1200px">
+				<img height="220" 
 			src="resources/slotanalytics0.PNG">
 			<img height="220" 
 			src="resources/slotanalytics1.PNG">
+			</div>
 			<p>
 				<ul>
 					<li>
@@ -232,15 +268,6 @@
 		</div>
 	</div>
 	<!--End Content -->
-	<!--Begin Footer -->
-	<div id="footer">
-	<div class="links">
-		<a title="name" href="https://github.com/harrisonyei">
-			<i class="fa fa-github" style="font-size:16px"></i>
-			harrisonyei</a>
-	</div>
-	</div>
-	<!--End Footer -->
 </div>
 <!-- End Wrapper -->
 
@@ -250,6 +277,37 @@
 
 	var element1 = document.getElementById("Portfolio/projects");
 	element1.classList.add("current");
+</script>
+
+<script>
+	var slideIndex = [1,1];
+	var slideId = ["mySlides1", "mySlides2"]
+	var demoId = ["demo1", "demo2"]
+	showDivs(1, 0);
+	
+	function plusDivs(n, no) {
+	  showDivs(slideIndex[no] += n, no);
+	}
+	
+	function showDivs(n, no) {
+		var i;
+		var x = document.getElementsByClassName(slideId[no]);
+		var dots = document.getElementsByClassName(demoId[no]);
+		if (n > x.length) {slideIndex[no] = 1}
+		if (n < 1) {slideIndex[no] = x.length}
+		for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" w3-white", "");
+		}
+		x[slideIndex[no]-1].style.display = "block";
+		dots[slideIndex[no]-1].className += " w3-white";
+		}
+
+	function currentDiv(n, no) {
+		showDivs(slideIndex[no] = n, no);
+	}
 </script>
 
 </body>
